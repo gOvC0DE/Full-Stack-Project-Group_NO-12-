@@ -1,0 +1,43 @@
+.card-outline {
+  position: relative;
+  background-color: transparent !important;
+  min-height: 91vh;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.empty-bookings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+.empty-bookings h2 {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #00f2ff, #33f5ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 2rem 0 1rem;
+    text-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+}
+
+.empty-bookings p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.empty-gif {
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+}

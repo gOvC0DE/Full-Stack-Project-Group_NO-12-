@@ -1,0 +1,102 @@
+.auth-container {
+    min-height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, rgba(0, 242, 255, 0.1) 0%, transparent 70%);
+}
+
+.auth-card {
+    background: rgba(26, 29, 41, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 242, 255, 0.1);
+    border-radius: 25px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 32px rgba(0, 242, 255, 0.15);
+    animation: fadeIn 0.5s ease-out;
+}
+
+.auth-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #00f2ff, #33f5ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+}
+
+.auth-input {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(0, 242, 255, 0.2) !important;
+    color: #fff !important;
+    padding: 0.8rem !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.auth-input:focus {
+    border-color: rgba(0, 242, 255, 0.5) !important;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 0.8rem !important;
+    margin-top: 1rem;
+    background: transparent !important;
+    border: 1px solid #00f2ff !important;
+    color: #00f2ff !important;
+    font-family: 'Orbitron', sans-serif !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-btn::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: linear-gradient(45deg, #00f2ff, #33f5ff, #66f7ff);
+    z-index: -1;
+    animation: animatedBorder 4s linear infinite;
+    background-size: 300% 300%;
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.auth-btn:hover::before {
+    opacity: 1;
+}
+
+.auth-link {
+    color: #00f2ff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.auth-link:hover {
+    color: #33f5ff;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 

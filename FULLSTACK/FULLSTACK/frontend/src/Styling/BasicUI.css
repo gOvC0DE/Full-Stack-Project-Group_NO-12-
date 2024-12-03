@@ -1,0 +1,176 @@
+.nav-bar {
+    background-color: #1a1d29 !important;
+    height: 9vh;
+    padding: 0 2rem;
+    box-shadow: 0 2px 20px rgba(0, 242, 255, 0.15);
+}
+
+.nav-brand {
+    background: linear-gradient(to right, #00f2ff, #33f5ff, #66f7ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+    transition: all 0.3s ease;
+    margin-left: 3rem;
+    padding-right: 1.5rem;
+}
+
+.nav-brand:hover {
+    text-shadow: 0 0 25px rgba(0, 242, 255, 0.8);
+    transform: scale(1.05);
+    background: linear-gradient(to right, #33f5ff, #66f7ff, #99faff);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.search-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(0, 242, 255, 0.2);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0.5rem 1rem;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: rgba(0, 242, 255, 0.6);
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.3);
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-btn {
+    border-radius: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: glow 2s infinite;
+}
+
+.login-btn {
+    background: transparent;
+    border: 2px solid rgba(0, 242, 255, 0.4);
+    color: #00f2ff;
+}
+
+.login-btn:hover {
+    border-color: rgba(0, 242, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+.register-btn {
+    background: #00f2ff;
+    border: none;
+    color: #1a1d29;
+}
+
+.register-btn:hover {
+    background: #33f5ff;
+    box-shadow: 0 0 25px rgba(0, 242, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px rgba(0, 242, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 242, 255, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(0, 242, 255, 0.3);
+    }
+}
+
+.footer {
+    padding: 2rem 0;
+    background: rgba(26, 29, 41, 0.8);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(0, 242, 255, 0.1);
+}
+
+.feature-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(0, 242, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.feature-circle:hover {
+    background: rgba(0, 242, 255, 0.2);
+    border-color: rgba(0, 242, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+    transform: translateY(-5px);
+}
+
+.feature-circle span {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00f2ff;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+.feature-label {
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.nav-link {
+    color: #00f2ff !important;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 2rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #33f5ff !important;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+.manage-btn {
+    background: transparent;
+    border: 1px solid #00f2ff;
+    color: #00f2ff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-right: 1rem;
+    transition: all 0.3s ease;
+}
+
+.manage-btn:hover {
+    background: rgba(0, 242, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+    transform: translateY(-2px);
+}

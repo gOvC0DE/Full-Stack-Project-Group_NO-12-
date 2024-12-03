@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+.App,
+#root,
+.outer {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: #00f2ff;
+    background: transparent;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.inner {
+    width: 450px;
+    margin: auto;
+    background: rgba(26, 29, 41, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 14px 80px rgba(0, 242, 255, 0.15);
+    padding: 40px 55px 45px 55px;
+    border-radius: 25px;
+    transition: all .3s;
+    border: 1px solid rgba(0, 242, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.inner:hover {
+    border-color: rgba(0, 242, 255, 0.3);
+    box-shadow: 0 14px 100px rgba(0, 242, 255, 0.25);
+}
+
+.outer .form-control {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(0, 242, 255, 0.2) !important;
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+
+.outer .form-control:focus {
+    border-color: rgba(0, 242, 255, 0.5) !important;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.outer h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #00f2ff, #33f5ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+}
+
+.link-login {
+    color: #00f2ff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link-login:hover {
+    color: #33f5ff;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

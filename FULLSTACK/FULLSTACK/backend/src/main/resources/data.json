@@ -1,0 +1,218 @@
+{
+  "MovieTheater" : [
+    {
+      "name": "PVR Lulu Mall",
+      "location": "Lulu Mall",
+      "city": "Kochi",
+      "description": "A premium multiplex with state-of-the-art IMAX and 4DX screens for a luxurious viewing experience."
+    },
+    {
+      "name": "Cinepolis",
+      "location": "Centre Square Mall",
+      "city": "Kochi",
+      "description": "Renowned for its luxury recliner seating and a variety of gourmet snacks."
+    },
+    {
+      "name": "Kalabhavan Theatre",
+      "location": "MG Road",
+      "city": "Thiruvananthapuram",
+      "description": "A classic cinema with an updated 2K projection system and a rich history."
+    },
+    {
+      "name": "New Theatre",
+      "location": "Statue Junction",
+      "city": "Thiruvananthapuram",
+      "description": "An iconic theater recently renovated with cutting-edge technology."
+    },
+    {
+      "name": "Kairali-Sree-Nila",
+      "location": "Aristo Junction",
+      "city": "Thiruvananthapuram",
+      "description": "A trio of screens showcasing regional and international movies."
+    },
+    {
+      "name": "Ajantha Theatre",
+      "location": "Kollam",
+      "city": "Kollam",
+      "description": "A comfortable theater known for its vibrant ambiance."
+    },
+    {
+      "name": "Inox Sobha City Mall",
+      "location": "Sobha City Mall",
+      "city": "Thrissur",
+      "description": "Famous for its premium interiors and state-of-the-art projection systems."
+    },
+    {
+      "name" : "The Pioneer Amphitheater",
+      "location" : "1336 Lakeland Park Drive",
+      "city" : "Tallapoosa, GA",
+      "description" : "The Pioneer Amphitheater is an independent cinema in the city of Tallapoosa. In 2009, it was rated as one of the best cinemas in the world by Total Film magazine."
+    },
+    {
+      "name" : "Broadway Theater",
+      "location" : "4611 Archwood Avenue",
+      "city" : "Mountain View, WY",
+      "description" : "They have the best IMAX screen in the world! And I love the small theater feel without sketchy crowds and the seats were roomy and comfortable.                        "
+    },
+    {
+      "name" : "Popcorn Scope",
+      "location" : "3217 Kooter Lane",
+      "city" : "Charlotte, NC",
+      "description" : "Giant popcorn for cheap and rewards card that gives you discounts or free items after a certain amount of screenings. I recommend if your an introverted weirdo like myself but love movies.."
+    },
+    {
+      "name": "Ariesplex SL Cinemas",
+      "location": "MG Road",
+      "city": "Thiruvananthapuram",
+      "description": "A six-screen multiplex featuring advanced projection and Dolby Atmos sound systems, offering an exceptional cinematic experience."
+    },
+    {
+      "name": "Carnival Cinemas",
+      "location": "Mall of Travancore",
+      "city": "Thiruvananthapuram",
+      "description": "A popular destination for movie lovers with modern facilities and comfortable seating."
+    },
+    {
+      "name": "Revathy CineMax",
+      "location": "Parippally",
+      "city": "Kollam",
+      "description": "Known for its massive RGB laser-powered screens and Dolby Atmos sound, providing top-notch cinematic experiences."
+    }
+  ],
+
+
+
+      
+    
+
+
+
+
+    
+  "Movie" : [
+    {
+      "name": "2018: Everyone is a Hero",
+      "duration": 150,
+      "language": "Malayalam",
+      "movieType": "Drama",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDa_7rQhwRJ9yDY2BaesfTrtWqpzDTHY0gg&s",
+      "description": "A gripping portrayal of Kerala's 2018 floods and the resilience of its people."
+    },
+    {
+      "name": "Drishyam 2",
+      "duration": 153,
+      "language": "Malayalam",
+      "movieType": "Thriller",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/46cda5d3b9ae2a2a6995b341dc212549364079e8eac037306ac7ae6a6a906576.jpg",
+      "description": "A suspenseful sequel continuing Georgekutty's story of crime and cover-ups."
+    },
+    {
+      "name": "Minnal Murali",
+      "duration": 159,
+      "language": "Malayalam",
+      "movieType": "Superhero",
+      "image": "https://dudurudh.com/wp-content/uploads/2021/12/mm.jpg.webp",
+      "description": "A local tailor gains superpowers after being struck by lightning and becomes a hero for his village."
+    },
+    {
+      "name": "Premam",
+      "duration": 156,
+      "language": "Malayalam",
+      "movieType": "Romantic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hV41MT8OpTOm3qMn7G5WSf4hybsz4WiLDA&s",
+      "description": "A journey through three phases of love in the life of George."
+    },
+    {
+      "name": "Kumbalangi Nights",
+      "duration": 135,
+      "language": "Malayalam",
+      "movieType": "Drama",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDg5MDkyNWItZmZlMy00YjI3LWIwNzktODIyNzYxMjJmNDhmXkEyXkFqcGc@._V1_.jpg",
+      "description": "A heartwarming tale of brotherhood and family bonds set in a scenic village."
+    },
+    {
+      "name": "Lucifer",
+      "duration": 174,
+      "language": "Malayalam",
+      "movieType": "Action",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/1bce07d9b47c075bc28d8248bdfdfa239018adcebda63849d0450f9c724a38d3.jpg",
+      "description": "A political thriller revolving around power struggles and betrayals."
+    },
+    {
+      "name": "Njan Prakashan",
+      "duration": 131,
+      "language": "Malayalam",
+      "movieType": "Comedy",
+      "image": "https://i.ytimg.com/vi/8EVi5VByNNg/maxresdefault.jpg",
+      "description": "A humorous take on the aspirations of an ordinary man with extraordinary dreams."
+    },
+    {
+      "name": "Uyare",
+      "duration": 125,
+      "language": "Malayalam",
+      "movieType": "Drama",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEvAfdzbHNmrs1E65jZm2s5gNPO9OMphkjw&s",
+      "description": "The inspiring journey of a woman who survives an acid attack."
+    },
+    {
+      "name": "The Great Indian Kitchen",
+      "duration": 100,
+      "language": "Malayalam",
+      "movieType": "Drama",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTcyN2UyNzgtMTlhOC00NjdmLWFhMzQtZTQ1ZjNiYmYxOTQwXkEyXkFqcGc@._V1_.jpg",
+      "description": "A thought-provoking movie on patriarchal norms and women's empowerment."
+    },
+    {
+      "name": "Bangalore Days",
+      "duration": 171,
+      "language": "Malayalam",
+      "movieType": "Drama",
+      "image": "https://resizing.flixster.com/u4gwRuuttpxRF5vbo9jmkbLYBo4=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10859350_v_h9_aa.jpg",
+      "description": "A fun-filled exploration of life, friendship, and love in a bustling city."
+    },
+    {"name" : "The Batman",
+      "duration" : 176,
+      "language" : "English",
+      "movieType" : "Action",
+      "image" : "https://m.media-amazon.com/images/S/pv-target-images/3de84cca07fc963b66a01a5465c2638066119711e89c707ce952555783dd4b4f.jpg",
+      "description" : "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement. "
+    },
+    {"name" : "Titanic",
+      "duration" : 195,
+      "language" : "English",
+      "movieType" : "Romantic",
+      "image" : "https://i0.wp.com/awardswatch.com/wp-content/uploads/2023/02/Screenshot-2023-02-13-at-8.01.58-AM.png?fit=1200%2C676&ssl=1",
+      "description" : "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+    },
+    {"name" : "Ted",
+      "duration" : 106,
+      "language" : "English",
+      "movieType" : "Comedy",
+      "image" : "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_.jpg",
+      "description" : "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori."
+    },
+    {"name" : "Star Wars",
+      "duration" : 121,
+      "language" : "English",
+      "movieType" : "Fantasy",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTLOonH9YSWLn7zu0kxLFIkAhcVPgk2cdSw&s",
+      "description" : "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+    },
+    {"name" : "Despicable Me 3",
+      "duration" : 90,
+      "language" : "Englisha",
+      "movieType" : "Comedy",
+      "image" : "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/dm3.jpg?itok=SBMOfspQ",
+      "description" : "Gru meets his long-lost, charming, cheerful, and more successful twin brother Dru, who wants to team up with him for one last criminal heist."
+    },
+    {"name" : "Your Name.",
+      "duration" : 106,
+      "language" : "English",
+      "movieType" : "Animation",
+      "image" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/b7d5c3e0703e59c63c5fd06f86396f8d.jpg",
+      "description" : "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
+    }
+  ],
+  "morningMovieTime" :  ["10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", "12:00 AM", "12:30 AM"],
+  "afternoonMovieTime":  ["01:00 PM", "01:30 PM", "02:00 PM", "02:30 PM", "03:00 PM", "03:30 PM"]
+}
